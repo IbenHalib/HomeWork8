@@ -1,0 +1,8 @@
+vadim_index:
+    pattern:  /index
+    defaults: { _controller: VadimGuestBundle:Default:index }
+
+
+vadim_create:
+    pattern:  /create
+    defaults: { _controller: VadimGuestBundle:Default:create }

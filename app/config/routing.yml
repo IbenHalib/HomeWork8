@@ -1,5 +1,3 @@
 vadim_guest:
-    resource: "@VadimGuestBundle/Controller/"
-    type:     annotation
+    resource: "@VadimGuestBundle/Resources/config/routing.yml"
     prefix:   /
-

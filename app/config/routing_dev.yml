@@ -14,5 +14,9 @@ _main:
     resource: routing.yml
 
 # AcmeDemoBundle routes (to be removed)
-_acme_demo:
-    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+#_acme_demo:
+#    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+
+vadim_guest:
+    resource: "@VadimGuestBundle/Resources/config/routing.yml"
+    prefix:   /
