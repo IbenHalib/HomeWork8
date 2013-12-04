@@ -6,3 +6,11 @@ vadim_index:
 vadim_create:
     pattern:  /create
     defaults: { _controller: VadimGuestBundle:Default:create }
+
+vadim_delete:
+     pattern:  /delete/{id}
+     defaults: { _controller: VadimGuestBundle:Default:delete }
+
+vadim_see:
+     pattern:  /see/{id}
+     defaults: { _controller: VadimGuestBundle:Default:see }

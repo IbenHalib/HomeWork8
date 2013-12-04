@@ -1,1 +1,20 @@
 {{ form(form) }}
+
+ {% for post in posts %}
+     <h1> {{ post.name }}</h1>
+     <br> {{ post.email }}
+     <br> {{ post.post }}
+
+     <ul>
+         <li>
+             <a href="{{ path('vadim_delete', {'id': post.id}) }}"> {{ 'delete' }}
+             </a>
+         </li>
+
+         <li>
+             <a href="{{ path('vadim_see', {'id': post.id}) }}"> {{ 'see' }}
+             </a>
+         </li>
+     </ul>
+
+ {% endfor %}
